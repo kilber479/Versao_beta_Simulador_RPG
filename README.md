@@ -49,7 +49,3 @@ src/
 - Java JDK 17 ou superior instalado  
 - IDE ou ambiente de execução (VS Code, IntelliJ, NetBeans ou GitHub Codespaces)
 
-### ▶️ Para executar:
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/<seu-usuario>/<nome-do-repositorio>.git
