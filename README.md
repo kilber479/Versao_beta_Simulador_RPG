@@ -26,9 +26,6 @@ Essa versão oferece uma experiência jogável simples e funcional, permitindo t
    - Escolha **“2 - Sair”** para encerrar o programa.
 
 ---
-
----
-
 ## 👨‍💻 Desenvolvido por
 
 **Projeto:** Simulador de Batalha RPG  
@@ -36,6 +33,7 @@ Essa versão oferece uma experiência jogável simples e funcional, permitindo t
 - [ Kilber Fernando Guimarães Alves Filho]     
 
 **Disciplina:** Programação Orientada a Objetos  
+---
 
 ## 🖼️ Demonstração
 
