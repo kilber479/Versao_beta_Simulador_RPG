@@ -1,51 +1,44 @@
-# Versão_beta_Simulador_RPG
+# 🧙‍♂️ Simulador de Batalha RPG — Versão Beta Funcional
 
-# 🧙‍♂️ Simulador de Batalha RPG - Versão Beta Funcional
+## 📘 Descrição do Progresso
+Nesta quarta etapa, o projeto evoluiu para uma **versão beta funcional**.  
+O sistema agora permite **interação completa com o usuário**, incluindo:
 
-## 👥 Identificação do Grupo
-- **Integrantes:** Kilber Fernando Guimarães Alves Filho
-- **Curso:** Programação Orientada a Objetos – Java  
-- **Etapa:** Parte 4 – Versão Beta Funcional  
+- Menu inicial com as opções de **Começar Jogo** e **Sair**.  
+- Cadastro de **nome dos jogadores** e escolha de **classes** (Guerreiro, Mago ou Arqueiro).  
+- Sistema de **batalha por turnos**, com **ações ativas e passivas** (ataque e defesa).  
+- Implementação dos principais conceitos de **Programação Orientada a Objetos**:  
+  - **Encapsulamento:** controle de atributos e métodos.  
+  - **Herança:** classes específicas (Guerreiro, Mago, Arqueiro) herdando de `Personagem`.  
+  - **Polimorfismo:** métodos de ataque e defesa com comportamentos diferentes para cada classe.  
+  - **Tratamento de exceções:** controle de entradas incorretas e opções inválidas no menu.  
+  - **Coleções (ArrayList):** utilizadas para armazenar o histórico de ações e turnos da batalha.  
 
----
-
-## 🎯 Descrição do Projeto
-Este projeto é um **simulador de batalha RPG em Java**, desenvolvido como parte do trabalho prático da disciplina de **Programação Orientada a Objetos (POO)**.  
-O sistema permite que o jogador escolha personagens com diferentes classes (Guerreiro, Mago, Arqueiro) e participe de batalhas automáticas ou controladas, com base nos atributos e ações de cada personagem.
-
-A versão **Beta Funcional** representa um **avanço em relação ao protótipo inicial**, incluindo:
-- Implementação de **interações completas com o usuário** (escolha de personagens, ações, ataques, defesas).  
-- Melhor organização dos **pacotes e classes** conforme a modelagem UML.  
-- Reforço nos conceitos de **herança, polimorfismo e encapsulamento**.  
-- Lógica de batalha aprimorada e mensagens de status durante o combate.
+Essa versão oferece uma experiência jogável simples e funcional, permitindo testar todas as mecânicas principais e consolidar o núcleo lógico do jogo.
 
 ---
 
-## 🧩 Estrutura de Pacotes
-
-src/
-├── model/
-│ ├── Personagem.java
-│ ├── Guerreiro.java
-│ ├── Mago.java
-│ ├── Arqueiro.java
-│
-├── controller/
-│ └── BatalhaController.java
-│
-├── view/
-│ └── JogoView.java
-│
-├── service/
-│ └── JogoService.java
-│
-└── Main.java
+## 🕹️ Instruções de Execução
+   - Escolha **“1 - Começar Jogo”** no menu inicial.  
+   - Digite os nomes dos jogadores.  
+   - Escolha as classes (**Guerreiro**, **Mago** ou **Arqueiro**).  
+   - Realize ataques e defesas até que um personagem vença.  
+   - Escolha **“2 - Sair”** para encerrar o programa.
 
 ---
 
-## ⚙️ Instruções de Execução
+---
 
-### 🧱 Pré-requisitos:
-- Java JDK 17 ou superior instalado  
-- IDE ou ambiente de execução (VS Code, IntelliJ, NetBeans ou GitHub Codespaces)
+## 👨‍💻 Desenvolvido por
+
+**Projeto:** Simulador de Batalha RPG  
+**Integrantes:**  
+- [ Kilber Fernando Guimarães Alves Filho]     
+
+**Disciplina:** Programação Orientada a Objetos  
+
+## 🖼️ Demonstração
+
+https://github.com/user-attachments/assets/cad968d6-05c1-4d7e-9743-8b4042523c32
+
 
